@@ -1,8 +1,10 @@
 #include<iostream>
 #include<string>
 
-int main()
+int main(int argc, char* argv[])
 {
+
+  std::cout << "So... what's your phone number? Press Enter then Ctrl-D after."<<std::endl;
   
   char in_char{'x'};
   while(std::cin >> in_char)
