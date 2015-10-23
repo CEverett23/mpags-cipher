@@ -1,40 +1,66 @@
-#include <iostream>
-#include <string>
+#include<iostream>
+#include<string>
 
 int main()
 {
-  //This is my message to youuuuuu
+  
+  char in_char{'x'};
+  while(std::cin >> in_char)
 
-   std::cout << "Hey babe\n";
+    //Input of original message, outputs on Enter then Ctrl+D
+    {
+    switch(in_char)
+      {
+	//Taking numerical characters and replacing with words
+      case'0':
+	std::cout<<("ZERO ");
+	break;
 
- int d {1};
- d = 232;
- 
- std::cout << d << std::endl;
+      case '1':
+	std::cout<<("ONE ");
+	break;
 
- int a {1};
- a=25;
- double b {0.1};
- b=1.5;
- double c;
- double e;
- 
- c = b/a;
+      case '2' :
+	std::cout<<("TWO ");
+	break;
 
- e = a*b;
- 
- std::cout << c << std::endl;
+      case '3':
+	std::cout<<("THREE ");
+	break;
 
- std::cout << e << std::endl;
+      case'4':
+	std::cout<<("FOUR ");
+	break;
 
- int f;
- f= c*e;
+      case '5':
+	std::cout<<("FIVE ");
+	break;
 
- std::cout << f << std::endl;
+      case '6' :
+	std::cout<<("SIX ");
+	break;
 
- double g {2.34};
+      case '7':
+	std::cout<<("SEVEN ");
+	break;
 
- double h = g/b;
+	 case'8':
+	std::cout<<("EIGHT ");
+	break;
 
- std::cout << h << std::endl;
+      case '9':
+	std::cout<<("NINE ");
+	break;
+
+	//Numbers outputted as words, with spaces between.
+     
+      }
+    }
+
+
+
 }
+
+	  
+
+      
