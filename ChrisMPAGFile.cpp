@@ -1,12 +1,8 @@
-This is my file.
-I like my file.
-Please look after my file.
+#include <iostream>
+int main()
+{
+  //This is my message to youuuuuu
 
-I've added these parts in vim. This is my best file.
+ std::cout << "Hey babe\n";
 
-
-:)
-
-Vimmy vim vim
-
-I've just had a lovely lunch burrito
+}
