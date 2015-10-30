@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user17/Documents/MPAGS-Cpp/mpags-cipher.git/mpags-cipher.cpp
+iostream
+-
+string
+-
+fstream
+-
+
